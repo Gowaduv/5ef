@@ -1,0 +1,86 @@
+/*This document should only contain margin and padding directives*/
+
+
+/*This document also contains media queries as they are largely for layout purposes*/
+
+.hero {
+  margin: auto;
+}
+main {
+  margin-bottom: 3em;
+  padding-top: 2em;
+}
+
+/* Box Slider layout things */
+
+.bx-viewport {
+  margin-left: 15em;
+}
+.bxslider img {
+  margin: auto;
+}
+
+/* Scrolling sidebar layout things */
+
+.scrollBox {
+  padding-left: 0.1em;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+  .bxslider {
+    padding-top: 1em;
+  }
+  .bx-viewport {
+    padding-top: 5em;
+    margin: auto;
+    background-color: #000;
+  }
+  .bx-wrapper .bx-prev {
+    left: 4em;
+    background: url(../jquery.bxslider/images/controls.png) no-repeat 0 -32px;
+  }
+  .bx-wrapper .bx-next {
+    right: 5em;
+    background: url(../jquery.bxslider/images/controls.png) no-repeat -43px -32px;
+  }
+  .bx-pager {
+    margin: auto;
+  }
+  .menu {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .bxslider {
+    padding-top: 1em;
+  }
+  .bx-viewport {
+    padding-top: 0;
+    margin: auto;
+    background-color: #000;
+  }
+  .bx-wrapper .bx-prev {
+    left: 10em;
+  }
+  .bx-wrapper .bx-next {
+    right: 10em;
+  }
+  .bx-pager {
+    margin: auto;
+  }
+}
+
+/* Footer layout things */
+
+footer {
+  position: relative;
+  bottom: 0em;
+  left: 2em;
+}
+footer h5 {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0;
+}

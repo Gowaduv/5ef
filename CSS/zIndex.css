@@ -1,0 +1,24 @@
+.menu {
+  z-index: 10;
+}
+.hamburger {
+  z-index: 200;
+}
+.cross {
+  z-index: 300;
+}
+.bx-wrapper {
+  z-index: 500;
+}
+.bx-wrapper .bx-loading {
+  z-index: 500;
+}
+.bx-wrapper .bx-controls-direction a {
+  z-index: 500;
+}
+.bxslider li {
+z-index: 600;
+}
+.scrollbox {
+  z-index: 700;
+}
