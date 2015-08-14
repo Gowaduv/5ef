@@ -4,60 +4,65 @@ body {
   background: url(../images/background.png);
   font-family: 'Adamina', serif;
 }
-
+a {
+  color: #eee;
+  text-decoration: none;
+}
+a:hover {
+  color: #ccc
+}
+.hero {
+  width: 100%;
+  margin:auto;
+}
+.centerPiece {
+  font-family: "IM Fell English";
+  text-align: center;
+}
 /* Box Slider styling things */
 
 .bxslider li {
   background-color: black;
 }
-.bx-viewport {
-  max-width: 85%;
+.bxslider {
+  background-color: black;
 }
-/* Scrolling sidebar styling things */
-
+.bx-viewport {
+  max-width: 90%;
+}
+.bx-wrapper {
+  margin-top: 10em;
+}
+.caption1 {
+  color: #7f7f7f;
+}
+.caption2 a {
+  color: #ccc;
+}
+/* sets the height of the top setion of the page */
 .container {
   display: block;
   height: 40em;
 }
+.container__gallery {
+  display: block;
+  height: 25em;
+}
+.container__gallery .hero {
+  max-width: 20em;
+}
+/* Scrolling sidebar styling things */
 .scrollBox {
   background-color: #ccc;
-  height: 35em;
+  height: 40em;
   overflow: auto;
 }
+.scrollBox h2 {
+  text-align: center;
+  font-family: 'IM Fell English';
+}
 
-/* The buttons for the hamburger menu */
-/* from http://codepen.io/g13nn/pen/eHGEF */
-
-/*.hamburger {
-  background: none;
-  position: absolute;
-  top: 0;
-  left: 0.2em;
-  line-height: 45px;
-  padding: 0px 15px 0px 15px;
-  color: #fff;
-  border: 0;
-  font-size: 2em;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-}*/
-/*.cross{
-  background:none;
-  position:absolute;
-  top:0px;
-  left:0.2em;
-  padding:0px 15px 0px 15px;
-  color:#fff;
-  border:0;
-  font-size:3em;
-  line-height:65px;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-}*/
-
-/* The many things for the menu itself... */
+/* The many things for the menu ... */
 
 .menu {
   width: 15%;
@@ -66,8 +71,6 @@ body {
   text-align: center;
 }
 .menu ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
   list-style-image: none;
 }
@@ -75,21 +78,18 @@ body {
   font-size: 1.2em;
   color: #7f7f7f;
   display: block;
-  padding: 0;
-  border-bottom: #1d1f20 1px solid;
+  border-bottom: #6a6a6a 1px solid;
 }
 .menu li:hover {
   display: block;
-  padding: 1em 0 1em;
-  border-bottom: #1d1f20 1px solid;
+  border-bottom: #6a6a6a 1px solid;
 }
 .menu ul li a {
   text-decoration: none;
-  margin: 0px;
-  color: #7f7f7f;
+  color: #8c072b;
 }
 .menu ul li a:hover {
-  color: #7f7f7f;
+  color: #6f6f6f;
   text-decoration: none;
 }
 .menu a {
@@ -100,13 +100,15 @@ body {
   text-decoration: none;
   color: #7f7f7f;
 }
+
 /* Second level */
+
 .menu ul ul li {
   font-size: 1em;
   color: #aaa;
-  padding-left: 7em;
 }
 .menu ul ul li:hover {
   color: #aaa;
-  padding-left: 7em;
 }
+
+/* Gallery styling */

@@ -38,21 +38,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-a {
+/*a {
   color: 0, 0, 102;
 }
 a:hover {
   color: 51, 153, 153;
-}
-/*@font-face {
-  font-family: Blanch;
-  src: url("BLANCH_CONDENSED_INLINE.otf");
-}
-@font-face {
-  font-family: Matchbook;
-  src: url("MatchbookRegular.otf");*/
-}
-/*h1, h2, h3, h4, h5, h6, main {
-  font-family: Matchbook, serif;
-  color: rgba(178, 59, 9, 0.6);
 }*/

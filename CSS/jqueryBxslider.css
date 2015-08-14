@@ -25,6 +25,7 @@
 .bx-wrapper img {
 	/*max-width: 100%;*/
 	display: block;
+	height:auto;
 }
 
 /** THEME
@@ -105,12 +106,12 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 15em; /* was 10 px */
+	left: 10em; /* was 10 px */
 	background: url(images/controls.png) no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
-	right: 2em; /* was 10 px */
+	right: 10em; /* was 10 px */
 	background: url(images/controls.png) no-repeat -43px -32px;
 }*/
 
