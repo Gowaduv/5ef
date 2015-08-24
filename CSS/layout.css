@@ -9,7 +9,9 @@
 main {
   padding-top: 2em;
 }
-
+.main__block{
+  margin-bottom: 3em;
+}
 /* Box Slider layout things */
 
 .bx-viewport {
@@ -17,7 +19,7 @@ main {
   background-color: black;
 }
 .bxslider img {
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Scrolling sidebar layout things */
@@ -65,5 +67,12 @@ footer h6 {
 /* Gallery Layout */
 
 .hunters .bx-viewport {
-  padding-bottom: 1em;
+  padding-bottom: auto;
+}
+
+.caption1 {
+margin-left: 0.5em;
+}
+.caption2 {
+  margin-left: 0.5em;
 }

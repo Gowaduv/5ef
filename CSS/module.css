@@ -29,6 +29,7 @@ a:hover {
 }
 .bx-viewport {
   max-width: 90%;
+  background-color: black;
 }
 .bx-wrapper {
   margin-top: 10em;
@@ -46,7 +47,7 @@ a:hover {
 }
 .container__gallery {
   display: block;
-  height: 25em;
+  height: 27em;
 }
 .container__gallery .hero {
   max-width: 20em;
@@ -101,7 +102,7 @@ a:hover {
   color: #7f7f7f;
 }
 
-/* Second level */
+/* Second menu level */
 
 .menu ul ul li {
   font-size: 1em;
