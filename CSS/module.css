@@ -28,7 +28,6 @@ a:hover {
   background-color: black;
 }
 .bx-viewport {
-  max-width: 90%;
   background-color: black;
 }
 .bx-wrapper {
@@ -37,8 +36,8 @@ a:hover {
 .caption1 {
   color: #7f7f7f;
 }
-.caption2 a {
-  color: #ccc;
+.caption2 {
+  color: #6f6f6f;
 }
 /* sets the height of the top setion of the page */
 .container {
@@ -48,6 +47,9 @@ a:hover {
 .container__gallery {
   display: block;
   height: 27em;
+}
+.container__gallery a {
+  color: #8c072b;
 }
 .container__gallery .hero {
   max-width: 20em;
@@ -112,4 +114,7 @@ a:hover {
   color: #aaa;
 }
 
+footer h6 {
+  font-size: 0.7em;
+}
 /* Gallery styling */

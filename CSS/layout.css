@@ -9,17 +9,20 @@
 main {
   padding-top: 2em;
 }
-.main__block{
+.main__block {
   margin-bottom: 3em;
 }
+
 /* Box Slider layout things */
 
 .bx-viewport {
   margin: auto;
-  background-color: black;
+  max-width: 90%;
+  padding-bottom: 3em;
+  padding-left: 0.5em;
 }
 .bxslider img {
-  margin: 0 auto;
+  margin: auto;
 }
 
 /* Scrolling sidebar layout things */
@@ -33,6 +36,9 @@ main {
 .menu {
   margin-left: 1em;
   margin-top: 1em;
+}
+.menu h4 {
+  margin-bottom: 0.5rem;
 }
 .menu ul {
   margin: 0;
@@ -48,7 +54,7 @@ main {
   padding-left: 6em;
 }
 .menu ul ul li:hover {
-  padding-left: 7em;
+  padding-left: 6em;
 }
 
 /* Footer layout things */
@@ -57,6 +63,7 @@ footer {
   position: relative;
   bottom: 0em;
   left: 2em;
+  padding-top: 1em;
 }
 footer h6 {
   display: inline-block;
@@ -67,12 +74,14 @@ footer h6 {
 /* Gallery Layout */
 
 .hunters .bx-viewport {
-  padding-bottom: auto;
+  /*padding-bottom: auto;*/
 }
-
 .caption1 {
-margin-left: 0.5em;
+  margin-left: 0.5em;
 }
 .caption2 {
   margin-left: 0.5em;
+}
+.caption1 {
+  margin-top: 2em;
 }

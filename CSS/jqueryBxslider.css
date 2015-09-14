@@ -25,7 +25,7 @@
 .bx-wrapper img {
   /*max-width: 100%;*/
   display: block;
-  margin-bottom: inherit;
+  margin-bottom: 0;
 }
 
 /** THEME

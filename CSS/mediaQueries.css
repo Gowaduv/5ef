@@ -5,7 +5,7 @@
     padding-top: 1em;
   }
   .bx-viewport {
-    padding-top: 5em;
+    padding-top: 0.5em;
     margin-left: 7.1%;
   }
   .bx-wrapper .bx-prev {
@@ -19,11 +19,16 @@
   .bx-pager {
     margin: auto;
   }
+  .bx-wrapper .bx-controls-direction a {
+    top: 99%
+  }
   nav {
+    position: absolute;
     margin-top: 1em;
+    margin-bottom: 1em;
   }
   .menu {
-    width: 50%;
+    width: 60%;
     margin-left: 25%;
   }
   .menu .mobileHide {
@@ -35,11 +40,27 @@
     text-align: center;
     color: #7f7f7f;
   }
+  .menu ul ul li {
+    padding-left: 0.2em;
+  }
+  .menu ul ul li:hover {
+    padding-left: 0;
+  }
   main {
-    padding-top: 12em;
+    padding-top: 20em;
+  }
+  .scrollBox {
+    margin-bottom: 1em;
+  }
+  h4 {
+    display: inline;
+    margin-left: 1em;
+  }
+  .container__gallery {
+    padding-top: 4em;
   }
   img {
-    max-width: 100%
+    max-width: 95%;
   }
 }
 @media screen and (min-width: 800px) {
