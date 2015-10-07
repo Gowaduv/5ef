@@ -5,11 +5,12 @@ body {
   font-family: 'Adamina', serif;
 }
 a {
-  color: #eee;
   text-decoration: none;
+  color: #8c072b;
 }
 a:hover {
-  color: #ccc
+  text-decoration: none;
+  color: #8c072b;
 }
 .hero {
   width: 100%;
